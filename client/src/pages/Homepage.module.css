@@ -1,0 +1,110 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.contentmsg {
+  width: 80%;
+  background-color: #dae5f5;
+}
+.inputContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+.date {
+  text-align: end;
+  margin-top: 10px;
+}
+.groupHeader {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.groupHeader p {
+  color: black;
+  height: 50px;
+  width: 50px;
+  font-size: large;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 50%;
+  padding: 13px;
+  background-color: #fff;
+}
+.groupHeader h2 {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.messages {
+  margin: 10px;
+  overflow-y: auto;
+  height: 80%;
+  scrollbar-width: thin;
+}
+
+.message {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.messageInput {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  border-radius: 5%;
+}
+.messageInput textarea {
+  flex-grow: 1;
+  resize: none;
+  padding: 10px;
+}
+.messageInput button {
+  position: absolute;
+  background-color: transparent;
+  font-size: 30px;
+  bottom: 30px;
+  right: 20px;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.insideContentmsg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.imagecontent {
+  max-width: 480px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+  text-align: center;
+}
+.imagecontent img {
+  width: 480px;
+  height: 200px;
+}
+.imagecontent p {
+  font-weight: 500;
+}
+.footer {
+  text-align: center;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.footer img {
+  height: 20px;
+  width: 20px;
+}

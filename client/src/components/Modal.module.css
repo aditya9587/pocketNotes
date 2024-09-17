@@ -1,0 +1,76 @@
+.container {
+  inset: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.insideContainer {
+  height: 250px;
+  width: 400px;
+  background-color: white;
+  font-weight: 500;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  text-align: start;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nameInput {
+  height: 40px;
+  width: 70%;
+  border-radius: 20%;
+  border: 2px solid grey;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.colorOption {
+  display: flex;
+  column-gap: 10px;
+}
+input{
+  height: 30px;
+  width: 30px;
+  border: 0;
+  border-radius: 50%;
+  background-size: cover;
+}
+button {
+  background-color: #001f8b;
+  color: white;
+  border: 0;
+  border-radius: 20%;
+  height: 30px;
+  width: 70px;
+  align-self: flex-end;
+}
+
+.colorOption {
+  margin-top: 10px;
+}
+
+.colorList {
+  display: flex;
+  gap: 10px;
+}
+
+.colorCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.selected {
+  border: 3px solid black; /* Highlight selected color */
+}

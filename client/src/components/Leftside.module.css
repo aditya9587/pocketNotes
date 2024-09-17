@@ -1,0 +1,61 @@
+.groupName {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 20%;
+  font-weight: 500;
+  text-align: center;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+.groupName h2 {
+  padding: 20px 0px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.groupx {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+
+.bluebutton {
+  color: white;
+  font-size: xx-large;
+  font-weight: 500;
+  background-color: #16008b;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 0;
+  position: fixed;
+  top: 90%;
+  left: 15%;
+}
+.groupList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.name:hover{
+  background-color: #2F2F2F2B;
+  border-radius: 17%;
+}
+.name{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.initials{
+  color: white;
+  height: 50px;
+  width: 50px;
+  font-size:large;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px;
+}
